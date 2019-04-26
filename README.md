@@ -9,6 +9,12 @@ Generate monophonic melodies using a basic LSTM RNN. Great for machine learning 
 # clone this repo
 git clone https://github.com/brannondorsey/midi-rnn.git
 
+# Create a new conda environment with python 3.5
+conda create -n mini-rnn-env pip python=3.5
+
+# Activate the environment
+conda activate mini-rnn-env
+
 # Install the dependencies. You may need to prepend sudo to 
 # this command if you get an error
 pip install -r requirements.txt
